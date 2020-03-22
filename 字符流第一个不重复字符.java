@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -23,6 +25,7 @@ public class 字符流第一个不重复字符 {
         }
     }
 
+
     //return the first appearence once char in current stringstream
     public char FirstAppearingOnce() {
         //map.entry才有for方法嗷，判断如果为一个就输出
@@ -34,3 +37,4 @@ public class 字符流第一个不重复字符 {
         return '#';
     }
 }
+
